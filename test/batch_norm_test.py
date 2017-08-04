@@ -21,10 +21,13 @@
 # SOFTWARE.
 
 import unittest
-import tensorflow as tf
-import models
+
 import numpy as np
 import numpy.testing as testing
+import tensorflow as tf
+
+from src import models
+
 
 class BatchNormTest(unittest.TestCase):
 

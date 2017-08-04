@@ -26,7 +26,9 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-import models.network as network
+
+from src import models as network
+
 
 def inference(images, keep_probability, phase_train=True, weight_decay=0.0):
     """ Define an inference network for face recognition based 
